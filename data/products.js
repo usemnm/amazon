@@ -92,6 +92,156 @@ object3.method();
 export const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
+    image: "images/products/weixin.jpg",
+    name: "电话号码：18086018195 ",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 0,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "d5f378e8-7e7e-4580-ab1f-6e8d801bebec",
+    image: "images/products/chanpingjianjie.jpg",
+    name: "商品简介",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 0,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "3538e827-af13-4542-be83-3046f6f705d8",
+    image: "images/products/honghuadajinyuan.jpg",
+    name: "红花大金元",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 5800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "3de6cb84-e42e-4d5a-8dc0-e1412b1ba1b7",
+    image: "images/products/xinjiangmoheyan.jpg",
+    name: "新疆莫合烟",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 6800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "deabe123-33d6-47cb-89f0-64d476e0800c",
+    image: "images/products/jingxuantaozhuang.jpg",
+    name: "精选套装",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 18600,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "2857eac0-fa42-4f35-96d6-e4726a164f5f",
+    image: "images/products/kongyanguan.jpg",
+    name: "空烟管",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 1000,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "54060522-34be-4a46-838d-390d811e8083",
+    image: "images/products/shoudonglayanqi.jpg",
+    name: "手动拉烟器",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 1000,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "54060522-34be-4a46-838d-390d811e8083",
+    image: "images/products/shoudongshuangdaoguijuanyanji.jpg",
+    name: "手动双导轨卷烟器",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 4800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "54060522-34be-4a46-838d-390d811e8083",
+    image: "images/products/tiyantaozhuang.jpg",
+    name: "体验套装",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 6000,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "be10f7a8-fbc5-467e-90b1-69b48e341710",
+    image: "images/products/xiaoxiongmao.jpg",
+    name: "小熊猫",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 10800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
     name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
     rating: {
