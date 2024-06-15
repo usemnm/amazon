@@ -128,7 +128,7 @@ export const products = [
       stars: 4.5,
       count: 87
     },
-    priceCents: 5800,
+    priceCents: 6800,
     keywords: [
       "socks",
       "sports",
@@ -143,7 +143,7 @@ export const products = [
       stars: 4.5,
       count: 87
     },
-    priceCents: 6800,
+    priceCents: 7800,
     keywords: [
       "socks",
       "sports",
@@ -158,7 +158,7 @@ export const products = [
       stars: 4.5,
       count: 87
     },
-    priceCents: 18600,
+    priceCents: 19600,
     keywords: [
       "socks",
       "sports",
@@ -218,7 +218,7 @@ export const products = [
       stars: 4.5,
       count: 87
     },
-    priceCents: 6000,
+    priceCents: 7000,
     keywords: [
       "socks",
       "sports",
@@ -233,7 +233,7 @@ export const products = [
       stars: 4.5,
       count: 87
     },
-    priceCents: 10800,
+    priceCents: 11800,
     keywords: [
       "socks",
       "sports",
