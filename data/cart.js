@@ -11,7 +11,7 @@ export function loadFromStorage() {
       quantity: 2,
       deliveryOptionId: '1'
     }, {
-      productId: '15b6fc6f-327a-4ec4-896f-486349e85a3d',
+      productId: '3de6cb84-e42e-4d5a-8dc0-e1412b1ba1b7',
       quantity: 1,
       deliveryOptionId: '2'
     }];
