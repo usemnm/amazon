@@ -7,7 +7,7 @@ export function loadFromStorage() {
 
   if (!cart) {
     cart = [{
-      productId: 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6',
+      productId: '3538e827-af13-4542-be83-3046f6f705d8',
       quantity: 2,
       deliveryOptionId: '1'
     }, {
