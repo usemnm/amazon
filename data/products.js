@@ -150,6 +150,21 @@ export const products = [
       "apparel"
     ]
   },
+    {
+    id: "54060522-34be-4a46-838d-390d811e8083",
+    image: "images/products/tiyantaozhuang.jpg",
+    name: "体验套装",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 7000,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
   {
     id: "2857eac0-fa42-4f35-96d6-e4726a164f5f",
     image: "images/products/kongyanguan.jpg",
@@ -189,21 +204,6 @@ export const products = [
       count: 87
     },
     priceCents: 4800,
-    keywords: [
-      "socks",
-      "sports",
-      "apparel"
-    ]
-  },
-  {
-    id: "54060522-34be-4a46-838d-390d811e8083",
-    image: "images/products/tiyantaozhuang.jpg",
-    name: "体验套装",
-    rating: {
-      stars: 4.5,
-      count: 87
-    },
-    priceCents: 7000,
     keywords: [
       "socks",
       "sports",
