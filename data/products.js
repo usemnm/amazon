@@ -91,21 +91,6 @@ object3.method();
 
 export const products = [
   {
-    id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: "images/products/weixin.jpg",
-    name: "电话号码：18086018195 ",
-    rating: {
-      stars: 4.5,
-      count: 87
-    },
-    priceCents: 0,
-    keywords: [
-      "socks",
-      "sports",
-      "apparel"
-    ]
-  },
-  {
     id: "d5f378e8-7e7e-4580-ab1f-6e8d801bebec",
     image: "images/products/chanpingjianjie.jpg",
     name: "商品简介",
