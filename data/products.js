@@ -32,7 +32,7 @@ class Product {
   }
 
   getPrice() {
-    return `RMB:${formatCurrency(this.priceCents)}`;
+    return `¥:${formatCurrency(this.priceCents)}`;
   }
 
   extraInfoHTML() {
