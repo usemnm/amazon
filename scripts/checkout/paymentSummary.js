@@ -71,7 +71,7 @@ export function renderPaymentSummary() {
   document.querySelector('.js-payment-summary')
     .innerHTML = paymentSummaryHTML;
   document.querySelector('.js-return-to-home-lin')
-    .innerHTML=`Item ¥{productQuantity}`;
+    .innerHTML=`Item ${productQuantity}`;
 
     paypal.Buttons({
       createOrder: function(data, actions) {
