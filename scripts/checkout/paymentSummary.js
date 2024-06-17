@@ -19,7 +19,7 @@ export function renderPaymentSummary() {
   });
 
   const totalBeforeTaxCents = productPriceCents + shippingPriceCents;
-  const taxCents = totalBeforeTaxCents * 0.1;
+  const taxCents = totalBeforeTaxCents * 0;
   const totalCents = totalBeforeTaxCents + taxCents;
   const totalCents1 = formatCurrency(totalCents)
 
@@ -31,35 +31,35 @@ export function renderPaymentSummary() {
     <div class="payment-summary-row">
       <div>Items (${productQuantity}):</div>
       <div class="payment-summary-money">
-        $${formatCurrency(productPriceCents)}
+        ¥${formatCurrency(productPriceCents)}
       </div>
     </div>
 
     <div class="payment-summary-row">
       <div>Shipping &amp; handling:</div>
       <div class="payment-summary-money">
-        $${formatCurrency(shippingPriceCents)}
+        ¥${formatCurrency(shippingPriceCents)}
       </div>
     </div>
 
     <div class="payment-summary-row subtotal-row">
       <div>Total before tax:</div>
       <div class="payment-summary-money">
-        $${formatCurrency(totalBeforeTaxCents)}
+        ¥${formatCurrency(totalBeforeTaxCents)}
       </div>
     </div>
 
     <div class="payment-summary-row">
       <div>Estimated tax (10%):</div>
       <div class="payment-summary-money">
-        $${formatCurrency(taxCents)}
+        ¥${formatCurrency(taxCents)}
       </div>
     </div>
 
     <div class="payment-summary-row total-row">
       <div>Order total:</div>
       <div class="payment-summary-money">
-        $${formatCurrency(totalCents)}
+        ¥${formatCurrency(totalCents)}
       </div>
     </div>
 
@@ -71,7 +71,7 @@ export function renderPaymentSummary() {
   document.querySelector('.js-payment-summary')
     .innerHTML = paymentSummaryHTML;
   document.querySelector('.js-return-to-home-lin')
-    .innerHTML=`Item ${productQuantity}`;
+    .innerHTML=`Item ¥{productQuantity}`;
 
     paypal.Buttons({
       createOrder: function(data, actions) {
