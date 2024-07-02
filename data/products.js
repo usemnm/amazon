@@ -225,6 +225,141 @@ export const products = [
       "apparel"
     ]
   },
+  {
+    id: "049b0493-9c04-4115-afec-03d4b34d0bce",
+    image: "images/products/zhizhuntianxia.jpg",
+    name: "至尊天下",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 11800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "049b0493-9c04-4115-afec-03d4b34d0bcf",
+    image: "images/products/hehua.jpg",
+    name: "荷花",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 12800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "049b0493-9c04-4115-afec-03d4b34d0bcg",
+    image: "images/products/sisiyouni.jpg",
+    name: "丝丝有你",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 13500,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "049b0493-9c04-4115-afec-03d4b34d0bch",
+    image: "images/products/huajingye.jpg",
+    name: "黄金叶",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 14800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "049b0493-9c04-4115-afec-03d4b34d0bci",
+    image: "images/products/yuxi.jpg",
+    name: "玉溪",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 14800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "049b0493-9c04-4115-afec-03d4b34d0bcj",
+    image: "images/products/yunyan.jpg",
+    name: "云烟",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 15500,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "049b0493-9c04-4115-afec-03d4b34d0bck",
+    image: "images/products/95zhizhun.jpg",
+    name: "95至尊",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 16800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "049b0493-9c04-4115-afec-03d4b34d0bcl",
+    image: "images/products/jinlingshisancai.jpg",
+    name: "金陵十三钗",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 17800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
+    id: "049b0493-9c04-4115-afec-03d4b34d0bcm",
+    image: "images/products/lvlingshisancai.jpg",
+    name: "绿陵十三钗",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 19800,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
 ].map((productDetails) => {
   if (productDetails.type === 'clothing') {
     return new Clothing(productDetails);
