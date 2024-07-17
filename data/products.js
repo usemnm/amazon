@@ -120,21 +120,7 @@ export const products = [
       "apparel"
     ]
   },
-  {
-    id: "0a138b6c-436b-4915-ae55-cce1bdfa9d9d",
-    image: "images/products/diancizhichun.jpg",
-    name: "滇池之春",
-    rating: {
-      stars: 4.8,
-      count: 87
-    },
-    priceCents: 6800,
-    keywords: [
-      "socks",
-      "sports",
-      "apparel"
-    ]
-  },
+  
   {
     id: "3de6cb84-e42e-4d5a-8dc0-e1412b1ba1b7",
     image: "images/products/xinjiangmoheyan.jpg",
