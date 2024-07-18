@@ -91,8 +91,23 @@ object3.method();
 
 export const products = [
   {
+    id: "d9cf6940-93af-4481-9bf7-645da6c984c5",
+    image: "images/products/lxfs.jpg",
+    name: "联系方式",
+    rating: {
+      stars: 4.5,
+      count: 87
+    },
+    priceCents: 0,
+    keywords: [
+      "socks",
+      "sports",
+      "apparel"
+    ]
+  },
+  {
     id: "d5f378e8-7e7e-4580-ab1f-6e8d801bebec",
-    image: "images/products/chanpingjianjie.jpg",
+    image: "images/products/spjj.jpg",
     name: "商品简介",
     rating: {
       stars: 4.5,
@@ -120,21 +135,6 @@ export const products = [
       "apparel"
     ]
   },
-  {
-    id: "b41599e1-8eb4-4899-99a4-164a657593a2",
-    image: "images/products/diancizhichun.jpg",
-    name: "滇池之春",
-    rating: {
-      stars: 4.5,
-      count: 87
-    },
-    priceCents: 6800,
-    keywords: [
-      "socks",
-      "sports",
-      "apparel"
-    ]
-  }, 
   {
     id: "3de6cb84-e42e-4d5a-8dc0-e1412b1ba1b7",
     image: "images/products/xinjiangmoheyan.jpg",
